@@ -1,3 +1,12 @@
 {
-  "routes": [{ "src": "/", "dest": "/public/index.html" }]
+  "routes": [
+    {
+      "src": "/",
+      "dest": "/public/index.html"
+    },
+    {
+      "src": "/src",
+      "dest": "/src/css/styles.css"
+    }
+  ]
 }
