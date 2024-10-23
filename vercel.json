@@ -1,3 +1,6 @@
 {
-  "routes": [{ "src": "/(.*)", "dest": "/public/index.html" }]
+  "routes": [
+    { "src": "/", "dest": "/index.html" },
+    { "src": "/(.*)", "dest": "/src/$1" }
+  ]
 }
