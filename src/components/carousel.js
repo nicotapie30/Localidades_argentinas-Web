@@ -1,19 +1,15 @@
-
 class MyCarousel extends HTMLElement {
+  constructor() {
+    super();
 
-    constructor() {
-        super();
+    const shadow = this.attachShadow({ mode: 'open' });
 
-        const shadow = this.attachShadow({ mode: 'open' });
+    const article = document.createElement('article');
+    article.classList.add('article__carousel');
 
-
-        const article = document.createElement('article');
-        article.classList.add('article__carousel');
-
-
-        const divContainer = document.createElement('div');
-        divContainer.classList.add('carousel__container');
-        divContainer.innerHTML = `  <div class="carousel">
+    const divContainer = document.createElement('div');
+    divContainer.classList.add('carousel__container');
+    divContainer.innerHTML = `  <div class="carousel">
                                         <img src="/public/imgs/buenosaires.webp" alt="Buenos-Aires" title="Buenos Aires">
                                     </div>
                                     <div class="carousel">
@@ -150,12 +146,11 @@ class MyCarousel extends HTMLElement {
                                     </div>
                                     <div class="carousel">
                                         <img src="/public/imgs/tucuman.webp" alt="Tucuman" title="Tucuman">
-                                    </div>`
+                                    </div>`;
 
+    article.appendChild(divContainer);
 
-        article.appendChild(divContainer);
-
-        shadow.innerHTML = `
+    shadow.innerHTML = `
                         <style>
 
                             .article__carousel {
@@ -202,10 +197,10 @@ class MyCarousel extends HTMLElement {
                                 }
                             }
 
-                        </style>`
+                        </style>`;
 
-        shadow.appendChild(article);
-    };
-};
+    shadow.appendChild(article);
+  }
+}
 
 customElements.define('my-carousel', MyCarousel);
