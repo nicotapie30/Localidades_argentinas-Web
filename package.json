@@ -5,5 +5,18 @@
     "eslint": "^9.13.0",
     "globals": "^15.11.0",
     "prettier": "^3.3.3"
-  }
+  },
+  "name": "localidades_web",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "dependencies": {
+    "eslint-scope": "^8.1.0",
+    "eslint-visitor-keys": "^4.1.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
 }
