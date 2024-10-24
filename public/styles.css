@@ -608,6 +608,8 @@ b {
   font-weight: 400;
 }
 
+/*----- MEDIA QUERIES -----*/
+
 @media (width < 1024px) {
   .layout {
     width: 100%;
