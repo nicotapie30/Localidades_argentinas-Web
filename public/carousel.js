@@ -10,142 +10,142 @@ class MyCarousel extends HTMLElement {
     const divContainer = document.createElement('div');
     divContainer.classList.add('carousel__container');
     divContainer.innerHTML = `  <div class="carousel">
-                                        <img src="/public/imgs/buenosaires.webp" alt="Buenos-Aires" title="Buenos Aires">
+                                        <img src="./imgs/buenosaires.webp" alt="Buenos-Aires" title="Buenos Aires">
                                     </div>
                                     <div class="carousel">
-                                        <img src="/public/imgs/catamarca.webp" alt="Catamarca" title="Catamarca">
+                                        <img src="./imgs/catamarca.webp" alt="Catamarca" title="Catamarca">
                                     </div>
                                     <div class="carousel">
-                                        <img src="/public/imgs/chaco.webp" alt="Chaco" title="Chaco">
+                                        <img src="./imgs/chaco.webp" alt="Chaco" title="Chaco">
                                     </div>
                                     <div class="carousel">
-                                        <img src="/public/imgs/chubut.webp" alt="Chubut" title="Chubut">
+                                        <img src="./imgs/chubut.webp" alt="Chubut" title="Chubut">
                                     </div>
                                     <div class="carousel">
-                                        <img src="/public/imgs/cordoba.webp" alt="Córdoba" title="Córdoba">
+                                        <img src="./imgs/cordoba.webp" alt="Córdoba" title="Córdoba">
                                     </div>
                                     <div class="carousel">
-                                        <img src="/public/imgs/corrientes.webp" alt="Corrientes" title="Corrientes">
+                                        <img src="./imgs/corrientes.webp" alt="Corrientes" title="Corrientes">
                                     </div>
                                     <div class="carousel">
-                                        <img src="/public/imgs/entre-rios.webp" alt="Entre Ríos" title="Entre Ríos">
+                                        <img src="./imgs/entre-rios.webp" alt="Entre Ríos" title="Entre Ríos">
                                     </div>
                                     <div class="carousel">
-                                        <img src="/public/imgs/formosa.webp" alt="Formosa" title="Formosa">
+                                        <img src="./imgs/formosa.webp" alt="Formosa" title="Formosa">
                                     </div>
                                     <div class="carousel">
-                                        <img src="/public/imgs/jujuy.webp" alt="Jujuy" title="Jujuy">
+                                        <img src="./imgs/jujuy.webp" alt="Jujuy" title="Jujuy">
                                     </div>
                                     <div class="carousel">
-                                        <img src="/public/imgs/la-rioja.webp" alt="La Rioja" title="La Rioja">
+                                        <img src="./imgs/la-rioja.webp" alt="La Rioja" title="La Rioja">
                                     </div>
                                     <div class="carousel">
-                                        <img src="/public/imgs/la-pampa.webp" alt="La Pampa" title="La Pampa">
+                                        <img src="./imgs/la-pampa.webp" alt="La Pampa" title="La Pampa">
                                     </div>
                                     <div class="carousel">
-                                        <img src="/public/imgs/mendoza.webp" alt="Mendoza" title="Mendoza">
+                                        <img src="./imgs/mendoza.webp" alt="Mendoza" title="Mendoza">
                                     </div>
                                     <div class="carousel">
-                                        <img src="/public/imgs/misiones.webp" alt="Misiones" title="Misiones">
+                                        <img src="./imgs/misiones.webp" alt="Misiones" title="Misiones">
                                     </div>
                                     <div class="carousel">
-                                        <img src="/public/imgs/neuquen.webp" alt="Neuquen" title="Neuquen">
+                                        <img src="./imgs/neuquen.webp" alt="Neuquen" title="Neuquen">
                                     </div>
                                     <div class="carousel">
-                                        <img src="/public/imgs/rio-negro.webp" alt="Río Negro" title="Río Negro">
+                                        <img src="./imgs/rio-negro.webp" alt="Río Negro" title="Río Negro">
                                     </div>
                                     <div class="carousel">
-                                        <img src="/public/imgs/salta.webp" alt="Salta" title="Salta">
+                                        <img src="./imgs/salta.webp" alt="Salta" title="Salta">
                                     </div>
                                     <div class="carousel">
-                                        <img src="/public/imgs/san-luis.webp" alt="San Luis" title="San Luis">
+                                        <img src="./imgs/san-luis.webp" alt="San Luis" title="San Luis">
                                     </div>
                                     <div class="carousel">
-                                        <img src="/public/imgs/san-juan.webp" alt="San Juan" title="San Juan">
+                                        <img src="./imgs/san-juan.webp" alt="San Juan" title="San Juan">
                                     </div>
                                     <div class="carousel">
-                                        <img src="/public/imgs/santa-fe.webp" alt="Santa Fe" title="Santa Fe">
+                                        <img src="./imgs/santa-fe.webp" alt="Santa Fe" title="Santa Fe">
                                     </div>
                                     <div class="carousel">
-                                        <img src="/public/imgs/santa-cruz.webp" alt="Santa Cruz" title="Santa Cruz">
+                                        <img src="./imgs/santa-cruz.webp" alt="Santa Cruz" title="Santa Cruz">
                                     </div>
                                     <div class="carousel">
-                                        <img src="/public/imgs/santiago-del-estero.webp" alt="Santiago del Estero" title="Santiago del Estero">
+                                        <img src="./imgs/santiago-del-estero.webp" alt="Santiago del Estero" title="Santiago del Estero">
                                     </div>
                                     <div class="carousel">
-                                        <img src="/public/imgs/tierra-del-fuego.webp" alt="Tierra del Fuego" title="Tierra del Fuego">
+                                        <img src="./imgs/tierra-del-fuego.webp" alt="Tierra del Fuego" title="Tierra del Fuego">
                                     </div>
                                     <div class="carousel">
-                                        <img src="/public/imgs/tucuman.webp" alt="Tucuman" title="Tucman">
+                                        <img src="./imgs/tucuman.webp" alt="Tucuman" title="Tucman">
                                     </div>
                                     <div class="carousel">
-                                        <img src="/public/imgs/buenosaires.webp" alt="Buenos-Aires" title="Buenos Aires">
+                                        <img src="./imgs/buenosaires.webp" alt="Buenos-Aires" title="Buenos Aires">
                                     </div>
                                     <div class="carousel">
-                                        <img src="/public/imgs/catamarca.webp" alt="Catamarca" title="Catamarca">
+                                        <img src="./imgs/catamarca.webp" alt="Catamarca" title="Catamarca">
                                     </div>
                                     <div class="carousel">
-                                        <img src="/public/imgs/chaco.webp" alt="Chaco" title="Chaco">
+                                        <img src="./imgs/chaco.webp" alt="Chaco" title="Chaco">
                                     </div>
                                     <div class="carousel">
-                                        <img src="/public/imgs/chubut.webp" alt="Chubut" title="Chubut">
+                                        <img src="./imgs/chubut.webp" alt="Chubut" title="Chubut">
                                     </div>
                                     <div class="carousel">
-                                        <img src="/public/imgs/cordoba.webp" alt="Córdoba" title="Córdoba">
+                                        <img src="./imgs/cordoba.webp" alt="Córdoba" title="Córdoba">
                                     </div>
                                     <div class="carousel">
-                                        <img src="/public/imgs/corrientes.webp" alt="Corrientes" title="Corrientes">
+                                        <img src="./imgs/corrientes.webp" alt="Corrientes" title="Corrientes">
                                     </div>
                                     <div class="carousel">
-                                        <img src="/public/imgs/entre-rios.webp" alt="Entre Ríos" title="Entre Ríos">
+                                        <img src="./imgs/entre-rios.webp" alt="Entre Ríos" title="Entre Ríos">
                                     </div>
                                     <div class="carousel">
-                                        <img src="/public/imgs/formosa.webp" alt="Formosa" title="Formosa">
+                                        <img src="./imgs/formosa.webp" alt="Formosa" title="Formosa">
                                     </div>
                                     <div class="carousel">
-                                        <img src="/public/imgs/jujuy.webp" alt="Jujuy" title="Jujuy">
+                                        <img src="./imgs/jujuy.webp" alt="Jujuy" title="Jujuy">
                                     </div>
                                     <div class="carousel">
-                                        <img src="/public/imgs/la-rioja.webp" alt="La Rioja" title="La Rioja">
+                                        <img src="./imgs/la-rioja.webp" alt="La Rioja" title="La Rioja">
                                     </div>
                                     <div class="carousel">
-                                        <img src="/public/imgs/la-pampa.webp" alt="La Pampa" title="La Pampa">
+                                        <img src="./imgs/la-pampa.webp" alt="La Pampa" title="La Pampa">
                                     </div>
                                     <div class="carousel">
-                                        <img src="/public/imgs/mendoza.webp" alt="Mendoza" title="Mendoza">
+                                        <img src="./imgs/mendoza.webp" alt="Mendoza" title="Mendoza">
                                     </div>
                                     <div class="carousel">
-                                        <img src="/public/imgs/misiones.webp" alt="Misiones" title="Misiones">
+                                        <img src="./imgs/misiones.webp" alt="Misiones" title="Misiones">
                                     </div>
                                     <div class="carousel">
-                                        <img src="/public/imgs/neuquen.webp" alt="Neuquen" title="Neuquen">
+                                        <img src="./imgs/neuquen.webp" alt="Neuquen" title="Neuquen">
                                     </div>
                                     <div class="carousel">
-                                        <img src="/public/imgs/rio-negro.webp" alt="Río Negro" title="Río Negro">
+                                        <img src="./imgs/rio-negro.webp" alt="Río Negro" title="Río Negro">
                                     </div>
                                     <div class="carousel">
-                                        <img src="/public/imgs/salta.webp" alt="Salta" title="Salta">
+                                        <img src="./imgs/salta.webp" alt="Salta" title="Salta">
                                     </div>
                                     <div class="carousel">
-                                        <img src="/public/imgs/san-luis.webp" alt="San Luis" title="San Luis">
+                                        <img src="./imgs/san-luis.webp" alt="San Luis" title="San Luis">
                                     </div>
                                     <div class="carousel">
-                                        <img src="/public/imgs/san-juan.webp" alt="San Juan" title="San Juan">
+                                        <img src="./imgs/san-juan.webp" alt="San Juan" title="San Juan">
                                     </div>
                                     <div class="carousel">
-                                        <img src="/public/imgs/santa-fe.webp" alt="Santa Fe" title="Santa Fe">
+                                        <img src="./imgs/santa-fe.webp" alt="Santa Fe" title="Santa Fe">
                                     </div>
                                     <div class="carousel">
-                                        <img src="/public/imgs/santa-cruz.webp" alt="Santa Cruz" title="Santa Cruz">
+                                        <img src="./imgs/santa-cruz.webp" alt="Santa Cruz" title="Santa Cruz">
                                     </div>
                                     <div class="carousel">
-                                        <img src="/public/imgs/santiago-del-estero.webp" alt="Santiago del Estero" title="Santiago del Estero">
+                                        <img src="./imgs/santiago-del-estero.webp" alt="Santiago del Estero" title="Santiago del Estero">
                                     </div>
                                     <div class="carousel">
-                                        <img src="/public/imgs/tierra-del-fuego.webp" alt="Tierra del Fuego" title="Tierra del Fuego">
+                                        <img src="./imgs/tierra-del-fuego.webp" alt="Tierra del Fuego" title="Tierra del Fuego">
                                     </div>
                                     <div class="carousel">
-                                        <img src="/public/imgs/tucuman.webp" alt="Tucuman" title="Tucuman">
+                                        <img src="./imgs/tucuman.webp" alt="Tucuman" title="Tucuman">
                                     </div>`;
 
     article.appendChild(divContainer);
