@@ -457,30 +457,31 @@ b {
   gap: 0.9rem;
 }
 
-.info__ul {
+.links__text {
   font-family: var(--fonttext);
-  font-size: 0.6rem;
+  font-size: 0.7rem;
   font-weight: 600;
   color: var(--whitecolor);
-  display: flex;
-  flex-direction: column;
-  align-items: center;
 }
 
 .container__links {
   display: flex;
   align-items: center;
+  flex-direction: column;
   gap: 0.5rem;
   padding-top: 0.3rem;
 }
 
-.info__li {
-  padding: 0 0 0 0.4rem;
-  list-style: none;
+.links__container {
+  display: flex;
+  gap: 1rem;
 }
 
 .info__link {
   color: var(--whitecolor);
+  font-family: var(--fonttitle);
+  font-size: 0.6rem;
+  font-weight: 500;
 }
 
 .info__link:hover {
