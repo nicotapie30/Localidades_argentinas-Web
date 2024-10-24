@@ -1,7 +1,7 @@
 {
   "builds": [
     { "src": "public/**/*", "use": "@vercel/static" },
-    { "src": "src/css/*", "use": "@vercel/static" }
+    { "src": "src/**/*", "use": "@vercel/static" }
   ],
   "routes": [
     { "src": "/(.*)", "dest": "/public/$1" },
