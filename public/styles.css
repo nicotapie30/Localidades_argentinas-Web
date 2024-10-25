@@ -741,13 +741,25 @@ b {
     text-align: center;
   }
 
+  .main__solicitud {
+    font-size: 0.7rem;
+  }
+
+  .main__respuesta {
+    font-size: 0.7rem;
+  }
+
+  .fa-arrow-down {
+    font-size: 1.5rem;
+  }
+
   .main__code > code {
     font-size: 10rem;
     padding: 0.2rem 0.1rem;
   }
 
   .main__code > code:last-child {
-    font-size: 6px;
+    font-size: 3px;
     padding: 0.2rem 0.1rem;
   }
 
@@ -773,5 +785,9 @@ b {
 
   .info__ul {
     text-align: center;
+  }
+
+  .links__text {
+    font-size: 0.7rem;
   }
 }
