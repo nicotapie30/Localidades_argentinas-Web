@@ -788,6 +788,10 @@ b {
   }
 
   .links__text {
-    font-size: 0.7rem;
+    font-size: 0.6rem;
+  }
+
+  .info__link {
+    font-size: 0.6rem;
   }
 }
