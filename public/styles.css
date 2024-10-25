@@ -687,15 +687,16 @@ b {
   }
 
   .titles__title {
-    font-size: 1.4rem;
+    font-size: 1.2rem;
   }
 
   .titles__subtitle {
-    font-size: 0.6rem;
+    font-size: 0.5rem;
   }
 
   .main__title {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
+    text-align: center;
   }
 
   .main__endpoints {
