@@ -417,6 +417,11 @@ b {
   letter-spacing: 1px;
   box-shadow: 0px 0px 4px var(--blackcolor);
   text-shadow: 0px 0px 1px #555;
+  text-wrap: nowrap;
+}
+
+.main__code > code:last-child {
+  padding: 0.2rem 0.5rem;
 }
 
 .main__respuesta {
