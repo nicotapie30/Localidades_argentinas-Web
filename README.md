@@ -21,7 +21,7 @@ La Web, te mostrará ejemplificaciones claras y concisas con las que podrás int
 <br>
 <br>
 
-**Visitá la Web oficial para obtener más información: <a href="https://localidades.vercel.app/" target="_blank">Localidades Argentinas</a>**
+**Visitá la Web oficial para obtener más información: <a href="https://localidades-argentinas.vercel.app/" target="_blank">Localidades Argentinas</a>**
 <br>
 <br>
 
