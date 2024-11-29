@@ -85,6 +85,36 @@ body {
   align-items: center;
 }
 
+.nav__link-container {
+  padding: 0.4rem;
+  border: none;
+  outline: none;
+  border-radius: 100%;
+  background: transparent;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 200ms ease;
+
+  &:hover {
+    background: rgba(0, 0, 0, 0.1);
+  }
+}
+
+.nav__link-container-1 {
+  padding: 0.2rem 0.3rem;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  background: transparent;
+  cursor: pointer;
+
+  &:hover {
+    background: rgba(0, 0, 0, 0.1);
+  }
+}
+
 .nav__link {
   text-decoration: none;
   font-family: var(--fonttext);
@@ -96,7 +126,7 @@ body {
   justify-content: center;
 
   &:hover {
-    filter: invert(40%) contrast(150%);
+    filter: invert(20%) contrast(150%);
     color: var(--objetscolor);
   }
 }
