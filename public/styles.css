@@ -29,12 +29,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background: linear-gradient(
-    to bottom,
-    var(--whitecolor) 5%,
-    #b6b5cb,
-    #b3c6c4
-  );
+  background: linear-gradient(to bottom, #ecebff 5%, #b6b5cb, #b3c6c4);
   backdrop-filter: blur(10px);
   overflow: hidden;
 }
