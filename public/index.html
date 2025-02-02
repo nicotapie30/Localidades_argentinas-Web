@@ -38,6 +38,12 @@
       href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
       rel="stylesheet"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Gantari:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
     <meta name="author" content="Nicolás Alejandro Tapié" />
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <script type="module" src="./carousel.js" defer></script>
@@ -86,7 +92,7 @@
           Bienvenido a la API de Localidades de Argentina. Esta te permite
           acceder a información sobre provincias, departamentos y localidades
           del país. A continuación, te mostramos cómo puedes empezar a
-          utilizarla.
+          utilizarla. Los endpoints disponibles y cómo manejar posibles errores.
         </h2>
       </section>
 
@@ -98,27 +104,17 @@
         <main class="main__main" id="main">
           <h2 class="main__title">Guía para Utulizar la API</h2>
 
-          <span class="mainlist__text"
-            >Antes de comenzar, asegúrate de tener:</span
-          >
-
-          <div class="container__mainlist">
-            <ul class="mainlist__ul">
-              <li class="mainlist__item">
-                • Una herramienta para realizar solicitudes
-                <strong>HTTP</strong>, como <b>Postman</b> o <b>curl</b>.
-              </li>
-              <li class="mainlist__item">
-                • Conocimientos básicos en <strong>HTTP</strong> y
-                <strong>JSON</strong>.
-              </li>
-            </ul>
-          </div>
+          <article>
+            <p>
+              En esta guía se detalla como poder utilizar la API, endpoints
+              disponibles, posibles errores
+            </p>
+          </article>
 
           <h3 class="main__endpoints">Endpoints Disponibles</h3>
 
           <div class="main__container-containers">
-            <div class="main__container container-0" data-aos="fade-right">
+            <article class="main__container container-0" data-aos="fade-right">
               <h4 class="main__subtitle">Obtener Todas las Provincias</h4>
               <ul class="main__ul-items">
                 <li class="main__li-items">
@@ -146,9 +142,9 @@
                   class="main__img"
                 />
               </div>
-            </div>
+            </article>
 
-            <div class="main__container container-1" data-aos="fade-left">
+            <article class="main__container container-1" data-aos="fade-left">
               <h4 class="main__subtitle">Obtener una Provincia específica</h4>
               <ul class="main__ul-items">
                 <li class="main__li-items">
@@ -176,9 +172,9 @@
                   class="main__img"
                 />
               </div>
-            </div>
+            </article>
 
-            <div class="main__container container-2" data-aos="fade-right">
+            <article class="main__container container-2" data-aos="fade-right">
               <h4 class="main__subtitle">
                 Obtener Departamentos de una Provincia
               </h4>
@@ -209,9 +205,9 @@
                   class="main__img"
                 />
               </div>
-            </div>
+            </article>
 
-            <div class="main__container container-3" data-aos="fade-left">
+            <article class="main__container container-3" data-aos="fade-left">
               <h4 class="main__subtitle">
                 Obtener Localidades de un Departamento
               </h4>
@@ -245,9 +241,9 @@
                   class="main__img"
                 />
               </div>
-            </div>
+            </article>
 
-            <div class="main__container container-4" data-aos="fade-right">
+            <article class="main__container container-4" data-aos="fade-right">
               <h4 class="main__subtitle">
                 Obtener Información de una Localidad Específica
               </h4>
@@ -280,25 +276,41 @@
                   class="main__img"
                 />
               </div>
-            </div>
+            </article>
 
-            <div class="main__container container-5" data-aos="fade-left">
-              <h4 class="main__subtitle">Manejo de Errores</h4>
-              <ul class="main__ul-items">
-                <li class="main__li-items"><strong>• 404 Not Found</strong></li>
-                <li class="main__li-items">
-                  <strong>• 500 Internal Server Error</strong>
+            <article class="main__container container-5" data-aos="fade-bottom">
+              <h4 class="title__error">404 Not found:</h4>
+              <ul>
+                <li class="list__error">
+                  <strong>Causa:</strong> El recurso solicitado no existe
+                </li>
+                <li class="list__error">
+                  <strong>Solución:</strong> Verifica que la URL y los
+                  parámetros sean correctos
                 </li>
               </ul>
-              <p class="main__respuesta">Ejemplo de Respuesta de Error</p>
-              <div class="main__container-img" data-aos="fade-bottom">
-                <img
-                  src="./imgs/Errores.png"
-                  alt="Errores de Petición"
-                  class="main__img"
-                />
-              </div>
-            </div>
+              <h4 class="title__error">500 Internal Server Error:</h4>
+              <ul>
+                <li class="list__error">
+                  <strong>Causa:</strong> Ocurrió un error en el servidor
+                </li>
+                <li class="list__error">
+                  <strong>Solución:</strong>
+                  Intenta nuevamente más tarde
+                </li>
+              </ul>
+              <h4 class="title__error">400 Bad Request:</h4>
+              <ul>
+                <li class="list__error">
+                  <strong>Causa:</strong> La solicitud es inválida
+                </li>
+                <li class="list__error">
+                  <strong>Solución:</strong>
+                  Revisa la documentación de la API, para asegurarte de que
+                  estás enviando los parámetros correctos
+                </li>
+              </ul>
+            </article>
           </div>
         </main>
       </section>
