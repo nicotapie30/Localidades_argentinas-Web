@@ -248,11 +248,12 @@ class MyCarousel extends HTMLElement {
                                 height: 0.8rem;
                                 font-size: 0.5rem;
                                 font-weight: 500;
-                                color: #0e0e0e;
+                                color: #333;
                                 text-align: center;
                                 margin-bottom: 0;
                                 padding: 0.2rem 0.2rem;
                                 background-color: #ffffff;
+                                border: 1px solid transparent;
                                 border-radius: 10px;
                                 box-shadow: 0px 0px 2px #ddd;
                                 font-family: 'Montserrat';
@@ -261,6 +262,12 @@ class MyCarousel extends HTMLElement {
                                 display: flex;
                                 justify-content: center;
                                 align-items: center;
+
+                                &:hover {
+                                    border: 1px solid #ccc;
+                                    background: rgba(255, 255, 255, 0.9);
+                                    color: #444;
+                                }
                             }
 
                         </style>`;
